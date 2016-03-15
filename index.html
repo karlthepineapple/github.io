@@ -1,49 +1,53 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>GitHub.io by karlthepineapple</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-light.css">
-    <meta name="viewport" content="width=device-width">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Navbar tutorial from BootstrapBay.com">
+    <meta name="author" content="BootstrapBay.com">
+    <title>Fixed NavBar Example for Bootstrap</title>
+    <link href="bootstrap.min.css" rel="stylesheet">
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>GitHub.io</h1>
-        <p></p>
-
-        <p class="view"><a href="https://github.com/karlthepineapple/github.io">View the Project on GitHub <small>karlthepineapple/github.io</small></a></p>
-
-
-        <ul>
-          <li><a href="https://github.com/karlthepineapple/github.io/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/karlthepineapple/github.io/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/karlthepineapple/github.io">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <div>
-  
-  <div>
-    <h1>
-<a id="falling-into-design" class="anchor" href="#falling-into-design" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Falling into design</h1>
-    <p>It's really all theory.</p>
-  </div>
-  
-</div>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/karlthepineapple">karlthepineapple</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Kyle Scott Jordan</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Home</a></li>       
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <!-- <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Themes <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+             	<li class="dropdown-header">Admin & Dashboard</li>
+                <li><a href="#">Admin 1</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Portfolio</li>
+                <li><a href="#">Portfolio 1</a></li>
+              </ul>
+            </li> -->            
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
+Status API Training Shop Blog About Pricing
+© 2016 GitHub, Inc. Terms Privacy Security Contact Help
